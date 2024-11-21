@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: url(./images/image\ 2.webp)no-repeat;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+nav .logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#home {
+    height: 100vh;
+    background-image: url('./images/image.webp'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#home .home-content h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+#home .home-content p {
+    font-size: 24px;
+}
+
+#about{
+    background: url(./images/image\ 3.webp);
+}
+
+#about, #contact {
+    padding: 60px 30px;
+    text-align: center;
+}
+
+#about h2, #contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#contact{
+    background-image: url('./images/download\ \(1\).jfif'); /* Replace with your image */
+}
+
+#contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contact label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 18px;
+}
+
+#contact input, #contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#contact button {
+    padding: 15px 30px;
+    background-color: #ff6347;
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.9s ease;
+}
+
+#contact button:hover {
+    background-color: #ff4500;
+}
