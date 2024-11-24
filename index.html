@@ -9,16 +9,21 @@
 <body>
 
     <!-- Navbar -->
-    <nav>
-        <div class="logo">
-            <img src="./images/download (3).jfif" alt="Restaurant Logo">
+    <nav class="navbar">
+        <div class="logo"><img src="./images/download (3).jpg" alt=""></div>
+        <div class="hamburger-menu" id="hamburgerMenu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
         </div>
-        <ul>
+        <ul class="nav-links" id="navLinks">
             <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#contac">Contact</a></li>
         </ul>
     </nav>
+    
 
     <!-- Home Section -->
     <section id="home">
@@ -28,36 +33,137 @@
         </div>
     </section>
 
+    <!-- menu -->
+    <section class="menu" id="menu">
+    <header>
+        <h1>Our Menu</h1>
+    </header>
+        <div class="menu-items">
+            <div class="menu-item">
+                <h3>Grilled Salmon</h3>
+                <p>A perfectly grilled salmon served with a side of fresh vegetables.</p>
+            </div>
+            <div class="menu-item">
+                <h3>Grilled Salmon</h3>
+                <p>A perfectly grilled salmon served with a side of fresh vegetables.</p>
+            </div>
+            <div class="menu-item">
+                <h3>Grilled Salmon</h3>
+                <p>A perfectly grilled salmon served with a side of fresh vegetables.</p>
+            </div>
+            <div class="menu-item">
+                <h3>Grilled Salmon</h3>
+                <p>A perfectly grilled salmon served with a side of fresh vegetables.</p>
+            </div>
+            <div class="menu-item">
+                <h3>Classic Burger</h3>
+                <p>Juicy beef burger topped with cheese, lettuce, and tomatoes.</p>
+            </div>
+            <div class="menu-item">
+                <h3>Margherita Pizza</h3>
+                <p>Traditional pizza topped with fresh mozzarella and basil leaves.</p>
+            </div>
+            <div class="menu-item">
+                <h3>Margherita Pizza</h3>
+                <p>Traditional pizza topped with fresh mozzarella and basil leaves.</p>
+            </div>
+            <div class="menu-item">
+                <h3>Margherita Pizza</h3>
+                <p>Traditional pizza topped with fresh mozzarella and basil leaves.</p>
+            </div>
+            <div class="menu-item">
+                <h3>Margherita Pizza</h3>
+                <p>Traditional pizza topped with fresh mozzarella and basil leaves.</p>
+            </div>
+        </div>
+    </section>
+
+
     <!-- About Section -->
     <section id="about">
         <div class="about-content">
-            <h2>About Us</h2>
-            <p>Our restaurant offers a variety of dishes made from the freshest ingredients. We aim to provide our guests with an unforgettable dining experience in a comfortable, welcoming environment. Join us and enjoy great food and hospitality.</p>
-            <p>Our restaurant offers a variety of dishes made from the freshest ingredients. We aim to provide our guests with an unforgettable dining experience in a comfortable, welcoming environment. Join us and enjoy great food and hospitality.</p>
-            <p>Our restaurant offers a variety of dishes made from the freshest ingredients. We aim to provide our guests with an unforgettable dining experience in a comfortable, welcoming environment. Join us and enjoy great food and hospitality.</p>
-            <p>Our restaurant offers a variety of dishes made from the freshest ingredients. We aim to provide our guests with an unforgettable dining experience in a comfortable, welcoming environment. Join us and enjoy great food and hospitality.</p>
+            <header>
+            <h1>About Us</h1>
+        </header>
+            <div class="container">
+                <section>
+                    <h2>Welcome to [Your Restaurant Name]</h2>
+                    <p>At [Your Restaurant Name], we believe that every meal should be a celebration of flavors, community, and passion. Nestled in the heart of [Location/City], our restaurant brings together the freshest ingredients, cherished family recipes, and a warm, inviting ambiance to create an unforgettable dining experience.</p>
+                </section>
+                <section>
+                    <h2>Our Story</h2>
+                    <p>Our journey began with a simple dream: to share the love of [cuisine type or specialty] with the world. Founded in [Year], [Your Restaurant Name] was born out of a desire to blend tradition with innovation, offering dishes that honor their origins while appealing to modern tastes.</p>
+                </section>
+                <section>
+                    <h2>Our Philosophy</h2>
+                    <ul>
+                        <li><strong>Fresh Ingredients:</strong> We source locally whenever possible, supporting farmers and ensuring the highest quality for every dish.</li>
+                        <li><strong>Authenticity:</strong> From our kitchen to your plate, every recipe reflects the heritage and craftsmanship of [cuisine or theme].</li>
+                        <li><strong>Community:</strong> We strive to create a space where friends and family can gather, connect, and savor great food together.</li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>Why Choose Us?</h2>
+                    <p>- A warm, welcoming atmosphere</p>
+                    <p>- Exceptional customer service</p>
+                    <p>- Unique flavors crafted with care</p>
+                    <p>- [Add any unique selling points like “live music nights,” “a rotating seasonal menu,” etc.]</p>
+                </section>
+                <section>
+                    <h2>Contact Us</h2>
+                    <p>📍 <strong>Location:</strong> [Address]</p>
+                    <p>📞 <strong>Contact:</strong> [Phone Number]</p>
+                    <p>🌐 <strong>Website:</strong> [Website URL]</p>
+                </section>
+            </div>
         </div>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact">
-        <div class="contact-content">
-            <h2>Contact Us</h2>
-            <form action="#" method="POST">
-                <label for="name">Full Name:</label>
-                <input type="text" id="name" name="name" required placeholder="Enter your full name">
-                
+     <section id="contac">
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+    <div class="container">
+        <!-- Contact Information Section -->
+        <div class="contact-info">
+            <h2>Get in Touch</h2>
+            <p><strong>Address:</strong> [Your Address]</p>
+            <p><strong>Phone:</strong> <a href="tel:[YourPhoneNumber]">[YourPhoneNumber]</a></p>
+            <p><strong>Email:</strong> <a href="mailto:[YourEmail@example.com]">[YourEmail@example.com]</a></p>
+            <p><strong>Business Hours:</strong> [Your Business Hours]</p>
+        </div>
+        <!-- Contact Form Section -->
+        <div class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form action="submit_form.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Full Name" required>
+
                 <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required placeholder="Enter your email">
+                <input type="email" id="email" name="email" placeholder="Your Email Address" required>
+
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Your Phone Number">
 
                 <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="4" required placeholder="Enter your message"></textarea>
-                
+                <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+
                 <button type="submit">Submit</button>
             </form>
         </div>
-    </section>
+        <!-- Map Section -->
+        <div class="map">
+            <h2>Find Us</h2>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.835434509441!2d-122.41941548468189!3d37.77492927975912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858064dfdd7e0f%3A0xefe8d3c1b0efea4f!2sYour+Restaurant!5e0!3m2!1sen!2sus!4v1608231138747!5m2!1sen!2sus"
+                allowfullscreen=""
+                loading="lazy">
+            </iframe>
+        </div>
+    </div>
+</section>
 
-    <script src="index.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
